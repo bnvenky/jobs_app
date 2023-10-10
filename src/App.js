@@ -1,18 +1,17 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
-
-import LoginPage from "./components/LoginPage/LoginPage";
-import SignUpPage from "./components/SignUpPage/SignUpPage";
-import ApplicationFormPage from "./components/ApplicationFormPage";
-import JobDetailsPage from "./components/jobDetailsPage";
-import JobListingPage from "./components/jobListingPage";
-import LandingPage from "./components/LandingPage";
-import SuccessPage from "./components/SuccessPage";
-import NotFound from "./components/NotFound";
-import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+import React from 'react'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import './App.css'
+import LoginPage from './components/LoginPage/LoginPage'
+import SignUpPage from './components/SignUpPage/SignUpPage'
+import ApplicationFormPage from './components/ApplicationFormPage'
+import JobDetailsPage from './components/jobDetailsPage'
+import JobListingPage from './components/jobListingPage'
+import LandingPage from './components/LandingPage'
+import SuccessPage from './components/SuccessPage'
+import NotFound from './components/NotFound'
+import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
 
 const App = () => {
   return (
@@ -84,7 +83,7 @@ const App = () => {
         </Routes>
       </BrowserRouter>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
